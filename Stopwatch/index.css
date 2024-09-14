@@ -1,0 +1,106 @@
+body {
+  background-image:url("https://th.bing.com/th/id/R.4786125f214973685b5f5058303ba674?rik=xtURLWj7uJ3Q9A&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fe9wciWX.jpg&ehk=0vH86vhuVldQEDrdximhIPFB%2bS3QZILSa4vJA0u6STU%3d&risl=&pid=ImgRaw&r=0");
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-image:Url("https://th.bing.com/th/id/R.3303ee6279219b832533c82a6234ba36?rik=2LM2aEff5KXWkA&riu=http%3a%2f%2fpeopros.com%2fwp-content%2fuploads%2f2014%2f07%2fAmanda-Hourglass.jpg&ehk=InDo2mL4owOQAQS50q7AeOmJNK1ingwGE8VfZRrq2e0%3d&risl=&pid=ImgRaw&r=0");
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 48px;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#startPause {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#startPause:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+#lap {
+  background-color: #008CBA;
+  color: white;
+}
+
+#lap:hover:not(:disabled) {
+  background-color: #007B9A;
+}
+
+#reset {
+  background-color: #f44336;
+  color: white;
+}
+
+#reset:hover:not(:disabled) {
+  background-color: #da190b;
+}
+
+.lap-times {
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
